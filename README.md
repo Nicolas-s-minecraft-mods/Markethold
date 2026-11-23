@@ -12,7 +12,17 @@ NeoForge mod: balance of the trades and of the loot, with a list of blocked ench
 
 ## State
 
-The mod is in development. It loads in the game, but it has no function yet. The planned functions are in [docs/design.md](docs/design.md).
+Villagers do not sell Mending, and fishing does not give it. A list in the server configuration gives the blocked enchantments:
+
+- The villagers and the wandering trader make no new offers with a blocked enchantment.
+- In the existing offers, each blocked enchantment changes to a different enchantment.
+- In the fishing loot, each blocked enchantment changes to a different enchantment. As an option, the chest loot also changes.
+
+The mod needs no other mod. The rules and the configuration are in [docs/design.md](docs/design.md).
+
+## Worlds of Folkhold Balance
+
+A world of Folkhold Balance can use Markethold for the blocked enchantments. The world loses nothing. The config file has a new name (`markethold-server.toml`). To keep a changed list, copy the section `[blockedEnchantments]` to the new file. The steps are in [docs/design.md](docs/design.md#worlds-of-folkhold-balance).
 
 ## Contribute
 
