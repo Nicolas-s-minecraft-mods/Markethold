@@ -14,6 +14,10 @@ logoBlur = false
 # The mod list shows the translated description (key: fml.menu.mods.info.description.<mod_id>) when it exists.
 description = '''${mod_description}'''
 
+# Access to the offers of villagers and to the first cost of an offer.
+[[mixins]]
+config = "markethold.mixins.json"
+
 [[dependencies.${mod_id}]]
 modId = "neoforge"
 type = "required"

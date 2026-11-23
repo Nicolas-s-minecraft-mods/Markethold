@@ -1,4 +1,12 @@
 {
   "markethold.name": "Markethold",
-  "fml.menu.mods.info.description.markethold": "Balance of the trades and of the loot, with a list of blocked enchantments."
+  "fml.menu.mods.info.description.markethold": "Balance of the trades and of the loot, with a list of blocked enchantments.",
+  "markethold.configuration.title": "Markethold configuration",
+  "markethold.configuration.blockedEnchantments": "Blocked enchantments",
+  "markethold.configuration.enchantments": "Enchantments",
+  "markethold.configuration.inTrades": "Block them in new offers",
+  "markethold.configuration.cleanExistingOffers": "Clean the existing offers",
+  "markethold.configuration.rerollAttempts": "New attempts for an offer",
+  "markethold.configuration.inFishing": "Block them in fishing",
+  "markethold.configuration.inChestLoot": "Block them in chest loot"
 }

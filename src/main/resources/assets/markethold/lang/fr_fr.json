@@ -1,4 +1,12 @@
 {
   "markethold.name": "Markethold",
-  "fml.menu.mods.info.description.markethold": "Équilibrage des échanges et du butin, avec une liste d'enchantements bloqués."
+  "fml.menu.mods.info.description.markethold": "Équilibrage des échanges et du butin, avec une liste d'enchantements bloqués.",
+  "markethold.configuration.title": "Configuration de Markethold",
+  "markethold.configuration.blockedEnchantments": "Enchantements bloqués",
+  "markethold.configuration.enchantments": "Enchantements",
+  "markethold.configuration.inTrades": "Les bloquer dans les nouvelles offres",
+  "markethold.configuration.cleanExistingOffers": "Nettoyer les offres existantes",
+  "markethold.configuration.rerollAttempts": "Nouveaux essais pour une offre",
+  "markethold.configuration.inFishing": "Les bloquer à la pêche",
+  "markethold.configuration.inChestLoot": "Les bloquer dans le butin des coffres"
 }
